@@ -1,0 +1,25 @@
+@use 'global' as *;
+
+// sm size 375px -> sm
+// tb size 768px -> md
+// pc size 1440px -> xl
+
+.card__body {
+  padding: 15px;
+
+  @include mq(md) {
+  }
+
+  @include mq(xl) {
+  }
+}
+
+.card__body > *:last-child {
+  margin-bottom: 0;
+
+  @include mq(md) {
+  }
+
+  @include mq(xl) {
+  }
+}

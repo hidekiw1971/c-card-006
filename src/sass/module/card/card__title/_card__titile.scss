@@ -1,0 +1,17 @@
+@use 'global' as *;
+
+// sm size 375px -> sm
+// tb size 768px -> md
+// pc size 1440px -> xl
+
+.card__title {
+  margin-bottom: 5px;
+  font-size: 1.125rem;
+  font-weight: bold;
+
+  @include mq(md) {
+  }
+
+  @include mq(xl) {
+  }
+}

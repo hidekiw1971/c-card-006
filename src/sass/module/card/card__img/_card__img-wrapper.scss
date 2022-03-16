@@ -1,0 +1,17 @@
+@use 'global' as *;
+
+// sm size 375px -> sm
+// tb size 768px -> md
+// pc size 1440px -> xl
+
+.card__img-wrapper {
+  position: relative; // 画像の起点とする為。
+  padding-top: 56.25%; // 画像の表示領域としての高さを確保する為。
+  overflow: hidden; // 画像のトリミングの為。
+
+  @include mq(md) {
+  }
+
+  @include mq(xl) {
+  }
+}

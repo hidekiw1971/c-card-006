@@ -1,0 +1,34 @@
+@use "global" as *;
+
+// sm size 375px -> sm
+// tb size 768px -> md
+// pc size 1440px -> xl
+
+.card__badge {
+  position: relative;
+
+  @include mq(md) {
+  }
+
+  @include mq(xl) {
+  }
+}
+
+.card__badge::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-width: 3.75rem 3.75rem 0 0;
+  border-style: solid;
+  border-color: #e25c00 transparent transparent transparent;
+
+  @include mq(md) {
+  }
+
+  @include mq(xl) {
+  }
+}

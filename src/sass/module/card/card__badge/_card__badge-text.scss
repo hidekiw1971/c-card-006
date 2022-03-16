@@ -1,0 +1,22 @@
+@use "global" as *;
+
+// sm size 375px -> sm
+// tb size 768px -> md
+// pc size 1440px -> xl
+
+.card__badge-text {
+  position: absolute;
+  z-index: 2;
+  top: 0.5rem;
+  left: 0.3125rem;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: bold;
+  transform: rotate(-45deg);
+
+  @include mq(md) {
+  }
+
+  @include mq(xl) {
+  }
+}

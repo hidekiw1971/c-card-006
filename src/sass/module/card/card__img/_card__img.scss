@@ -1,0 +1,20 @@
+@use 'global' as *;
+
+// sm size 375px -> sm
+// tb size 768px -> md
+// pc size 1440px -> xl
+
+.card_img {
+  // 以下のposition、top、transformで、
+  // 画像の上下位置を調整し、width: 100%; で横幅いっぱいに表示されるよう指定しています。
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+
+  @include mq(md) {
+  }
+
+  @include mq(xl) {
+  }
+}

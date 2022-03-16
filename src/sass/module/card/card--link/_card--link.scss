@@ -1,0 +1,26 @@
+@use "global" as *;
+
+.card--link {
+  display: block;
+  color: currentColor;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.card--link .card__title,
+.card--link .card__text {
+  transition: 0.25s;
+}
+
+.card--link:focus,
+.card--link:hover {
+  opacity: 0.75;
+}
+
+.card--link:focus .card__title,
+.card--link:focus .card__text,
+.card--link:hover .card__title,
+.card--link:hover .card__text {
+  color: #e25c00;
+  text-decoration: underline;
+}

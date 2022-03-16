@@ -1,0 +1,15 @@
+@use 'global' as *;
+
+// sm size 375px -> sm
+// tb size 768px -> md
+// pc size 1440px -> xl
+
+.card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+
+  @include mq(md) {
+  }
+
+  @include mq(xl) {
+  }
+}
