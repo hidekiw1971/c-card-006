@@ -7,8 +7,6 @@
 
 ## イメージ画像
 
-- 標準カードにバッチをつけた拡張タイプ
-- <img width="488" alt="image" src="https://user-images.githubusercontent.com/99580997/155694143-556e9ce3-a4a2-4feb-8309-5db1aec41948.png">
 
 ## portfolio url:
 
