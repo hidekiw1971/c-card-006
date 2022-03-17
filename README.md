@@ -6,6 +6,7 @@
 - https://css-architecture-perfect.guide/chapter6
 
 ## イメージ画像
+<img width="398" alt="image" src="https://user-images.githubusercontent.com/99580997/158784226-be9b4fe4-757b-4f9c-a8a1-03232f8edbaf.png">
 
 
 ## portfolio url:
